@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net40;net45;</TargetFrameworks>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/uvaa/framework.appsettings</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <DocumentationFile>uvaa.Framework.AppSettings.xml</DocumentationFile>
+    <Description>It's a extension for `ConfigurationManager. AppSettings`</Description>
+    <PackageReleaseNotes>override the value of the AppSettings in the web.Config via the Environment</PackageReleaseNotes>
+    <PackageTags>appsettings,configuration,configurationmanager</PackageTags>
+    <PackageProjectUrl>https://github.com/uvaa/framework.appsettings</PackageProjectUrl>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+
+</Project>

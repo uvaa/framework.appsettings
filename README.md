@@ -3,7 +3,7 @@ It's a extension for `ConfigurationManager. AppSettings`
 
 ### 1. Install
 
-    Install-Package RockLib.Configuration -Version 2.5.2
+    Install-Package uvaa.Framework.AppSettings
 
 ### 2. The simple example for Asp.Net Mvc
     public class Global : HttpApplication
@@ -16,7 +16,7 @@ It's a extension for `ConfigurationManager. AppSettings`
         }
     }
 
-You can then override the value of the AppSettings in the web. Config via the Environment
+You can then override the value of the AppSettings in the web.Config via the Environment
 
 ### 3.1 web.config example
 
